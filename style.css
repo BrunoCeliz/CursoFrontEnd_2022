@@ -1,0 +1,24 @@
+#derecha {
+    background-color: rgb(189, 227, 243);
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+i {
+    display: inline-block;
+    width: 30px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+#undertext {
+    color: grey;
+}
+
+#nombre {
+    font-size: 6rem;
+}
