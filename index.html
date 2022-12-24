@@ -43,6 +43,12 @@ Intentemo' vía bootstrap, let's begin:
                 <h2> <small class="text-muted"> Asistente de marketing </small></h2>
             </div>
         </div>
+        <div class="row">
+            <div class="col-4 ps-4">
+                <h4> Fecha de nacimiento: 02/03/1989 </h4>
+                <h4> Nacionalidad: Colombiano </h4>
+            </div>
+        </div>
     </div>
     <!--Copiando de la doc of de Bootstrap:-->
     <div class="container-fluid 
@@ -55,9 +61,9 @@ Intentemo' vía bootstrap, let's begin:
                     Además, puedo especificar otro método para definir según el dispositivo-->
                     <h3 class="text-break">Perfil Personal</h3>
                     <p>
-                        (Nacimiento: 2/1/1989) Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed arcu enim. Mauris at tellus vel mi iaculis lacinia sed at eros. Aenean a viverra nulla. Donec nec sem nisi. Pellentesque id nunc mauris. Praesent a facilisis mauris. Quisque ut arcu cursus, porttitor est at, rhoncus velit. Interdum et malesuada fames ac ante ipsum primis in faucibus.
                         <br>
-                        <span id="mucho texto" style="display: none;"> Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</span>
+                        <span id="mucho texto" style="display: none;"> Phasellus molestie ligula sit amet commodo ullamcorper. Sed a urna id nulla scelerisque tempor. Fusce ac dui sed nulla eleifend imperdiet rhoncus sit amet metus. Mauris aliquam, lacus quis mollis vehicula, est dolor maximus est, quis pulvinar dolor tortor sit amet urna. Curabitur condimentum diam sed nunc malesuada, et tincidunt sem fermentum. Curabitur eu condimentum nulla, ac mollis mauris. Nunc commodo dignissim justo, at posuere diam vestibulum id. Nullam lacus urna, suscipit eu scelerisque nec, ultricies sed lorem. Integer ultrices imperdiet est, eu commodo nisi rutrum et. Proin molestie lobortis commodo. Ut eleifend consectetur mi, id tincidunt enim cursus vitae. Mauris ac lacinia massa. Nam ullamcorper finibus mattis.</span>
                         <br>
                         <button type="button" id="more txt"> Leer más </button>
                         <button type="button" id="less txt" style="display: none;"> Leer menos </button>
@@ -91,7 +97,19 @@ Intentemo' vía bootstrap, let's begin:
                 </div>
                 <div class="row">
                     <h3 class="text-break">Formación</h3>
-                    <p>UNC, FaMAF, Cba. 2017-2022</p>
+                    <div class="container-fluid p-3">
+                        <ul class="list-unstyled">
+                            <li>
+                                <h5>Universidad Nacional de Bogotá</h5>
+                                <span id="undertext2">Licenciatura en Ciencias de la Comunicación <br> 2009-2015</span> 
+                            </li>
+                            <br>
+                            <li>
+                                <h5>Politécnico Grancolombiano</h5>
+                                <span id="undertext2">Curso de Fundamentos de Marketing Digital <br> 2016</span> 
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="col-8 ps-4 border-start border-dark border-3" id="derecha">
